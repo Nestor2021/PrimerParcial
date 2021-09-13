@@ -19,7 +19,7 @@ namespace CALCULE_EL_PRECIO_DE_VENTA_DE_PRODUCTOS
             usuario.A = 0; 
             //Se piden los datos al usuario para iniciar sesion
             Console.WriteLine("Bienvenido!!!!");
-            Console.WriteLine("Ingrese su nombre de usuario");
+            Console.WriteLine("Ingrese su nombre de usuario  (Nestor)");
             usuario.Nombre= Console.ReadLine();
             Console.WriteLine("Ingrese su contraseña");
             usuario.Contra= Convert.ToInt32(Console.ReadLine());
