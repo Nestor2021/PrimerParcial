@@ -30,7 +30,7 @@ namespace CALCULE_EL_PRECIO_DE_VENTA_DE_PRODUCTOS.Entidades
         {
             return "Nombre del Producto: " + Nombre_producto +
                 "\nDescripcion del Porducto: " + Descripcion_del_producto +
-                "\nPrecio del Producto $" + Precio_del_producto + 
+                "\nPrecio del Producto $" + Precio_del_producto.ToString("0.00") + 
                 "\nCantidad de Producto: " + Cantidad;
         }
     }

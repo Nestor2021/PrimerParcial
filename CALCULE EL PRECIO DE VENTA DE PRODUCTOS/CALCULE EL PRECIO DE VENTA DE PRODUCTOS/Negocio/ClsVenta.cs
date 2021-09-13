@@ -18,7 +18,7 @@ namespace CALCULE_EL_PRECIO_DE_VENTA_DE_PRODUCTOS.Negocio
                 venta.Descuento = venta.Total * 0.15;
                 venta.Descuento = venta.Total - venta.Descuento;
                 return "El precio original es de $" + venta.Total + 
-                    "\nY el precio con un descuento de 15% le queda a $" + venta.Descuento;
+                    "\nY el precio con un descuento de 15% le queda a $" + venta.Descuento.ToString("00.00");
             }
             else
             {
